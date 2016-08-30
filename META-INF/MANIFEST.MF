@@ -1,0 +1,2 @@
+Main-Class: NetSim
+Class-Path: lib/jgraphx.jar
