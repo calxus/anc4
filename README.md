@@ -1,25 +1,25 @@
-##Network Simulator
+## Network Simulator
 Written by: Gordon Adam
 
 Program to simulate the routing tables of a computer network. The gui offers a cl interface in order to manipulate the simulation. All necessary information can be viewed on the command line. Though there is a visual representation offered as well. All instructions for building, executing and commands are given below.
 
-###INSTRUCTIONS
+### INSTRUCTIONS
 If for any reason you need to build the project please follow the build instructions.
 However, the project has already been compiled and placed in a .jar, so to execute the program please follow execute instructions
 
-###BUILD
+### BUILD
 `javac -cp lib\jgraphx.jar *.java`
 `jar cvmf META-INF\MANIFEST.MF NetSim.jar *.class`
 
-###EXECUTE
+### EXECUTE
 `java -jar NetSim.jar <Network Description File>'`
 
 
-###NETWORK DESCRIPTION FILES
+### NETWORK DESCRIPTION FILES
 `netdesc.txt`
 `netdesc_simple.txt`
 
-###COMMANDS
+### COMMANDS
 __table__ - _prints the routing table of each node_
 
 __exchange__ - _Each node will swap its routing table with its direct neighbour. Nodes will compare their routing tables with their neighbours to find the shortest path to nodes they are not connected to. If an integer is provided the command will complete that many iterations of routing table swaps._
